@@ -38,6 +38,9 @@ button {
  float: left;
  padding: 0px;
 }
+#hl h3 {
+  margin: 20px 0px 5px 5px;
+}
 #hr {
  margin: 10px;
  float: right;
@@ -53,19 +56,22 @@ button {
 #foot {
  color: white;
  background-color: #2f2f2f;
- height: 150px;
+ height: autopx;
  margin: 0px;
- padding: 0px;
+ padding: 20px;
  border: solid #2f2f2f 10px;
 }
 #fl a {
+ text-align: center;
  color: #1abc9a;
 }
+
 #fl {
- float: left;
  margin: 10px;
 }
+#fl h4,p {
+  text-align: center;
+}
 #fr {
- float: right;
  margin: 10px;
 }
