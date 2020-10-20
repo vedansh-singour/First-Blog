@@ -25,7 +25,7 @@ button {
 #head {
  color: white;
  background-color: #1abc9c;
- height: 100px;
+ height: 150px;
  margin: 0px;
  padding: 0px;
  border: solid #1abc9c 10px;
@@ -61,15 +61,20 @@ button {
  padding: 20px;
  border: solid #2f2f2f 10px;
 }
-#fl a {
+#foot a {
  text-align: center;
  color: #1abc9a;
 }
-
-#fl {
- margin: 10px;
+#foot h2 {
+  text-align: left;
 }
-#fl h4,p {
+#foot a:hover {
+ color: lime;
+}
+#foot {
+ margin: 0px;
+}
+#foot h4,p {
   text-align: center;
 }
 #fr {
