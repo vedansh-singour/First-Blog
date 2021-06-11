@@ -12,6 +12,9 @@ a {
   color: red;
   align: center;
 }
+a:hover{
+  color: lime;
+}
 button {
  margin-bottom: 20px;
  border: solid black 10px;
